@@ -10,7 +10,7 @@ const { createClient } = redis;
 const {
   userJoin,
   getCurrentUser,
-  userLeave,
+  userLeave, 
   getRoomUsers,
 } = require("./utils/users");
 
