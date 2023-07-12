@@ -55,7 +55,7 @@ io.on("connection", (socket) => {
       users: getRoomUsers(user.room),
     });
   });
-
+  
   // Listen for chatMessage
   socket.on("chatMessage", (msg) => {
     const user = getCurrentUser(socket.id);
